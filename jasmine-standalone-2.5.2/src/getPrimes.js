@@ -1,10 +1,10 @@
 function getPrimes(n){
 	var primeNumbers = [];
 	if (n === 0){
-		return primeNumbers;
+		return "Invalid Input, Supply Positive Numbers greater than 1";
 	}
 	else if (n <= 1){
-		return primeNumbers;
+		return "Invalid Input, Supply Positive Numbers greater than 1";
 	}
 	else if (Math.round(n) !== n){
 		return primeNumbers;
